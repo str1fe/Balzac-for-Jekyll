@@ -36,6 +36,33 @@ em {
     background: #ffe8c0;
 }
 
+.m-t-1 {
+  margin-top: 33px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+  &.gutter,
+  &.code {
+    border-bottom: 0;
+    padding: 0;
+  }
+}
+
+pre {
+  line-height: 2em;
+}
+
 strong {
     font-weight: bold;
 }
